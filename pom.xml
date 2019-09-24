@@ -16,8 +16,10 @@
         <aem.port>4502</aem.port>
         <aem.publish.host>localhost</aem.publish.host>
         <aem.publish.port>4503</aem.publish.port>
-        <sling.user>admin</sling.user>
-        <sling.password>admin</sling.password>
+    <!-- NOTE: maven sling plugin is not needed to install packages -->
+    <!-- all we need is the Content Package Plugin  -->
+        <sling.user></sling.user>
+        <sling.password></sling.password>
         <vault.user>admin</vault.user>
         <vault.password>admin</vault.password>
         <core.wcm.components.version>2.5.0</core.wcm.components.version>
@@ -25,6 +27,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
+
 
 
 
